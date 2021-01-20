@@ -69,7 +69,8 @@ window.addEventListener('scroll',function scroll(){
 //get position for each section           
         const position = section.getBoundingClientRect(); 
 //check position of section to add active class           
-        if(position.top >= 0 && position.bottom <= window.innerHeight){
+        if(position.top >0  && position.top < 150){
+                // alert(position.top);
             ele.classList.add('your-active-class'); //add active class on the active section  
             links.forEach((link)=>{//loop to add active class and remove all active from other sections
                 if(link.textContent == ele.getAttribute('data-nav')){

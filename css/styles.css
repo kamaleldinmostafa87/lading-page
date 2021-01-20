@@ -109,17 +109,18 @@ section {
     color: #fff;
     transition: ease 0.3s all;
 }
-@media only screen and (max-width:600px){
-    body{
-        margin-top: 30em;
+@media only screen and (max-width:778px){
+    
+    main{
+        margin-top: 20em;
     }
     .navbar__menu ul{
         display: flex;
-        flex-direction:row ;
+        flex-direction:column ;
         justify-content: center;
         align-content: center;
-        flex-wrap: nowrap;
-        font-size: .9em;
+        /* flex-wrap: nowrap; */
+        font-size: .7em;
         margin: 0;
         padding: 0;
     }
@@ -157,8 +158,8 @@ section {
 
 @media only screen and (min-width: 35em){
     .landing__container {
-        max-width: 50em;
-        padding: 4em;
+        max-width: 41em;
+        padding: 2em;
     }
 }
 
